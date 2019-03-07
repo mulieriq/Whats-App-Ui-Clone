@@ -151,8 +151,8 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
           bottom: new TabBar(
             controller: _tabController,
             indicatorColor: Colors.white,
-            indicatorSize: TabBarIndicatorSize.tab,          
-
+            indicatorSize: TabBarIndicatorSize.tab,
+           
             tabs: <Widget>[
               new Tab(icon: new Icon(Icons.camera_alt)),
               new Tab(
@@ -197,7 +197,6 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
             CallPage()
           ],
         ),
-     
       ),
     );
   }
